@@ -2,7 +2,6 @@
 import os
 import math
 
-
 def calculate_risk(income, debt, age):
     if income <= 0:
         return -1
@@ -10,11 +9,11 @@ def calculate_risk(income, debt, age):
     ratio = debt / income
 
     if ratio > 0.6:
-        return " HIGH "
+        return "HIGH"
     elif ratio > 0.3:
-        return " MEDIUM "
+        return "MEDIUM"
     else:
-        return " LOW "
+        return "LOW"
 
 
 def calculate_risk2(income, debt, age):
@@ -24,8 +23,8 @@ def calculate_risk2(income, debt, age):
     ratio = debt / income
 
     if ratio > 0.6:
-        return " HIGH "
+        return "HIGH"
     elif ratio > 0.3:
-        return " MEDIUM "
+        return "MEDIUM"
     else:
-        return " LOW "
+        return "LOW"
